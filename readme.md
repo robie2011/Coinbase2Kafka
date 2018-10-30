@@ -1,5 +1,5 @@
 # coinbase2kafkaBridge
-This NodeJs-Script subscribes to coinbase ticker channel through websocket feed (see https://docs.pro.coinbase.com/#protocol-overview) and produce messages for kafka. Coinbase websocket feed will also shown in console.
+This NodeJs-Script subscribes to coinbase ticker channel through websocket feed (see https://docs.pro.coinbase.com/#protocol-overview) and produces messages for kafka. Coinbase websocket feed will also shown in console.
 
 ## Install
 ```bash
