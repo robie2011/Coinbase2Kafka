@@ -1,1 +1,36 @@
-config.json
+{
+    "coinbaseWebsocket": "wss://ws-feed.pro.coinbase.com",
+    "kafka": {
+        "host": "localhost:9092",
+        "topic": "CoinbaseTicker"
+    },
+    "subscriptionRequest": {
+        "type": "subscribe",
+        "channels": [
+            {
+                "name": "ticker",
+                "product_ids": [
+                    "LTC-EUR"
+                ]
+            },
+            {
+                "name": "ticker",
+                "product_ids": [
+                    "ETH-EUR"
+                ]
+            },
+            {
+                "name": "ticker",
+                "product_ids": [
+                    "BTC-EUR"
+                ]
+            },
+            {
+                "name": "ticker",
+                "product_ids": [
+                    "ZRX-EUR"
+                ]
+            }
+        ]
+    }
+}
